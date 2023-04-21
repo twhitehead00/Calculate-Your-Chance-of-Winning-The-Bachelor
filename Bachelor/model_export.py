@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-with open('model.pkl', 'rb') as f:
+with open('lreg_model.pkl', 'rb') as f:
     trained_model = pickle.load(f)
 
 def predict(data):
